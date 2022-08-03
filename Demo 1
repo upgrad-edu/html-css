@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+  /* color code for unvisited link */
+  a:link {
+    color: pink;
+  }
+ 
+  /* color code for visited link */
+  a:visited {
+    color: blue;
+  }
+ 
+  /* color code when mouse is over link */
+  a:hover {
+    color: yellow;
+  }
+ 
+  /* Color code when link is selected*/
+  a:active {
+    color: red;
+  }
+  </style>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b> </b> Sequencing- link and visited link >>> hover</p>
+<p><b></b>  Sequencing- hover >>> active </p>
+
+</body>
+</html>
