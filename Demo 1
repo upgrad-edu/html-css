@@ -1,30 +1,30 @@
 <html>
 <head>
 <style>
-  /* color code for unvisited link */
-  a:link {
-    color: pink;
-  }
- 
-  /* color code for visited link */
-  a:visited {
-    color: blue;
-  }
- 
-  /* color code when mouse is over link */
-  a:hover {
-    color: yellow;
-  }
- 
-  /* Color code when link is selected*/
-  a:active {
-    color: red;
-  }
-  </style>
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
 
-<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
-<p><b> </b> Sequencing- link and visited link >>> hover</p>
-<p><b></b>  Sequencing- hover >>> active </p>
+.flex-container > div {
+  background-color: yellow;
+  width: 80px;
+  margin: 20px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  
+</div>
 
 </body>
 </html>
