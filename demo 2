@@ -1,19 +1,38 @@
 <html>
 <head>
-<style> 
-input:disabled {
-  background-color:lightpink;
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: pink;
 }
 
+.flex-container>div {
+  background-color: yellow;
+  width: 150px;
+  margin: 12px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+}
 </style>
 </head>
 <body>
 
-<form action="">
-  <input type="text" name="name" placeholder="Enter Your Name" disabled>
-  <input type="text" name="age" placeholder="Enter Your Age" disabled>
 
-</form>
+<div class="flex-container">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+  <div>E</div>
+  <div>F</div>  
+  <div>G</div>
+  <div>H</div>
+  <div>I</div>  
+  <div>J</div> 
+</div>
+
 
 </body>
 </html>
