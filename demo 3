@@ -1,0 +1,21 @@
+<html>
+<head>
+<style> 
+option:checked {
+ font-weight: bolder;
+ font-size: 10px; 
+ }
+
+</style>
+</head>
+<body>
+
+<select>
+  <option value="1">Levis</option>
+  <option value="2">Forever 21</option>
+  <option value="3">Calvin Klein</option>
+  <option value="4">Gucci</option>
+</select>
+
+</body>
+</html>
