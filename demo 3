@@ -1,21 +1,30 @@
 <html>
 <head>
-<style> 
-option:checked {
- font-weight: bolder;
- font-size: 10px; 
- }
+<style>
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.flex-container > div {
+  background-color: pink;
+  width: 120px;
+  margin: 15px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 25px;
+}
 
 </style>
 </head>
 <body>
 
-<select>
-  <option value="1">Levis</option>
-  <option value="2">Forever 21</option>
-  <option value="3">Calvin Klein</option>
-  <option value="4">Gucci</option>
-</select>
-
+<div class="flex-container">
+  <div>First</div>
+  <div>Second</div>
+  <div>Third</div>  
+</div>
 </body>
 </html>
