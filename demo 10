@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  height: 220px;
+  background-color: pink;
+}
+
+.flex-container > div {
+  background-color: yellow;
+  color: black;
+  width: 120px;
+  margin: 12px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="flex-container">
+  <div>Box A</div>
+  <div> Box B</div>
+  <div style="align-self: center">Box C</div>
+  <div>Box D</div>
+</div>
+
+
+</body>
+</html>
