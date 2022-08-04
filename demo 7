@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  align-items: left;
+  background-color: pink;
+}
+
+.flex-container > div {
+  background-color: yellow;
+  color: black;
+  margin: 12px;
+  text-align: left;
+  line-height: 60px;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="flex-container">
+  <div style="flex-grow: 1">Box A</div>
+  <div style="flex-grow: 2">Box B</div>
+  <div style="flex-grow: 8">Box C</div>
+</div>
+
+</body>
+</html>
+
+
