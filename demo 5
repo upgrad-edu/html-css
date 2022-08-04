@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+.flex-container {
+  display: inline-flex;
+  align-items: center;
+  background-color: pink;
+}
+
+.flex-container>div {
+  background-color: yellow;
+  color: black;
+  width: 150px;
+  margin: 12px;
+  text-align: left;
+  line-height: 60px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="flex-container">
+  <div style="order: 3">Box 1</div>
+  <div style="order: 2">Box 2</div>
+  <div style="order: 4">Box 3</div> 
+  <div style="order: 1">Box 4</div>
+</div>
+
+</body>
+</html>
+
+
