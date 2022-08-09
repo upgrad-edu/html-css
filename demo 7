@@ -1,18 +1,22 @@
 <html>
 <head>
 <style>
-.flex-container {
-  display: flex;
-  align-items: left;
-  background-color: pink;
+.item1 {
+  grid-area: area;
 }
 
-.flex-container > div {
-  background-color: yellow;
-  color: black;
-  margin: 12px;
-  text-align: left;
-  line-height: 60px;
+.grid-container {
+  display: grid;
+  grid-template-areas: 'area area area area area';
+  gap: 12px;
+  background-color: pink;
+  padding: 15px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 0, 1);
+  text-align: center;
+  padding: 18px 0;
   font-size: 25px;
 }
 </style>
@@ -20,13 +24,14 @@
 <body>
 
 
-<div class="flex-container">
-  <div style="flex-grow: 1">Box A</div>
-  <div style="flex-grow: 2">Box B</div>
-  <div style="flex-grow: 8">Box C</div>
+<div class="grid-container">
+  <div class="item1"> Box 1</div>
+  <div class="item2">Box 2</div>
+  <div class="item3">Box 3</div>  
+  <div class="item4">Box 4</div>
+  <div class="item5">Box 5</div>
+  <div class="item6">Box 6</div>
 </div>
 
 </body>
 </html>
-
-
